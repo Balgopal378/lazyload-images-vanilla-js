@@ -1,7 +1,8 @@
 nav {
     position: fixed;
     width: 100%;
-    top: 0px;
+    top: -25px;
+    left: 0px;
 }
 nav > ul {
     list-style: none;
