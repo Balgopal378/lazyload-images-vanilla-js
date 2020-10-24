@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazyload</title>
+    <link rel="stylesheet" href="./lazyload.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>logout</li>
+        </ul>
+    </nav>
+    <h2 class="center">Eagerly loaded</h2>
+    <div class="full__img">
+        <img src="https://images.unsplash.com/photo-1603329641052-1ec485d0e093" alt="image1">
+    </div>
+    <div class="half__img">
+        <h3 class="center">Two sections lazy loaded</h3>
+        <img data-src="https://images.unsplash.com/photo-1603458361546-a950e642dfef" alt="image2">
+        <img data-src="https://images.unsplash.com/photo-1603408639326-fad10b8fbc1c" alt="image3">
+    </div>
+    <script src="./lazyload.js"></script>
+</body>
+</html>
